@@ -1,0 +1,72 @@
+============================
+GUÍA DE REINSTALACIÓN Y EJECUCIÓN DEL PROYECTO
+============================
+
+1. APLICACIONES NECESARIAS (descarga e instala en este orden):
+--------------------------------------------------------------
+
+A) Node.js (incluye npm)20.19.4
+   https://nodejs.org/
+   (Descarga la versión LTS recomendada)
+
+B) Python (3.11 o superior)3.11.0
+   https://www.python.org/downloads/
+   (Marca la casilla "Add Python to PATH" durante la instalación)
+
+C) Docker Desktop
+   https://www.docker.com/products/docker-desktop/
+
+D) Git
+   https://git-scm.com/downloads
+
+E) AWS CLI (opcional, solo si quieres manipular DynamoDB desde consola)
+   https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+
+2. COMANDOS PARA INSTALAR DEPENDENCIAS Y EJECUTAR CADA PARTE
+--------------------------------------------------------------
+
+A) BACKEND (FastAPI + DynamoDB local)
+-------------------------------------
+1. Abre una terminal y navega a la carpeta del backend:
+   cd lapsusint-store-backend-main
+
+2. Instala las dependencias de Python:
+   py -m pip install -r requirements.txt
+
+3. Levanta el backend y la base de datos con Docker:
+   docker compose -f ./docker-compose.tests.yml up --build
+
+4. Accede a la API en tu navegador:
+   http://localhost:8000/docs
+
+
+B) APP DE ESCRITORIO (Electron)
+-------------------------------
+1. Abre una terminal y navega a la carpeta de la app de escritorio:
+   cd LapsusInt_AppEscritorio
+
+2. Instala las dependencias:
+   npm install
+
+3. Ejecuta la app de escritorio:
+   npm start
+
+
+C) WEB (React, si aplica)
+-------------------------
+1. Abre una terminal y navega a la carpeta del frontend (por ejemplo, src):
+   cd src
+
+2. Instala las dependencias:
+   npm install
+
+3. Ejecuta la app web:
+   npm start
+
+
+NOTAS IMPORTANTES:
+------------------
+- Siempre instala primero las aplicaciones (Node.js, Python, Docker, Git) antes de correr los comandos.
+- Si tienes dudas, abre este archivo y sigue los pasos uno por uno.
+- Si necesitas ayuda, contacta a tu desarrollador o revisa la documentación oficial de cada herramienta. 

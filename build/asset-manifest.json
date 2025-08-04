@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.895d7998.css",
+    "main.js": "/static/js/main.1da538ff.js",
+    "static/js/453.74cc12e0.chunk.js": "/static/js/453.74cc12e0.chunk.js",
+    "static/media/logo.png": "/static/media/logo.a1b21050b8133f7f8a9b.png",
+    "static/media/neteller.png": "/static/media/neteller.72514ea181f56a73e066.png",
+    "static/media/card.png": "/static/media/card.756196faa8e40e167f92.png",
+    "static/media/googlepay.png": "/static/media/googlepay.d4eb02a88abc6bb3c870.png",
+    "static/media/es.png": "/static/media/es.f1aa18e18bb6359f236a.png",
+    "static/media/amazonpay.png": "/static/media/amazonpay.8744ba97b12b446f46af.png",
+    "static/media/mercadopago.png": "/static/media/mercadopago.5eb7bdcb246e17cd8716.png",
+    "static/media/paypal.png": "/static/media/paypal.0c428a53b5c3d0cf85ff.png",
+    "static/media/wechatpay.png": "/static/media/wechatpay.db7571985578ce53153c.png",
+    "static/media/applepay.png": "/static/media/applepay.74e6e4533018d938ec51.png",
+    "index.html": "/index.html",
+    "main.895d7998.css.map": "/static/css/main.895d7998.css.map",
+    "main.1da538ff.js.map": "/static/js/main.1da538ff.js.map",
+    "453.74cc12e0.chunk.js.map": "/static/js/453.74cc12e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.895d7998.css",
+    "static/js/main.1da538ff.js"
+  ]
+}
